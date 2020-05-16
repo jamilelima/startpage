@@ -1,43 +1,58 @@
 {
   "squares": [
-    { "name": "media", "links": [
-        { "name": "Spotify", "url": "https://open.spotify.com/" },
+    {
+      "name": "media",
+      "links": [
         { "name": "YoutubeMusic", "url": "https://music.youtube.com/" },
         { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Youtube", "url": "https://youtube.com" }
-      ]
-    },
-    { "name": "work", "links": [
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Heroku", "url": "http://heroku.com/" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
-      ]
-    },
-    { "name": "social", "links": [
-        { "name": "Reddit", "url": "https://reddit.com" },
-        { "name": "Unixporn Love", "url": "https://deepjyoti30.github.io/unixporn-love/" },
-        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "r/mk", "url": "https://www.reddit.com/r/MechanicalKeyboards/" }
+        { "name": "Youtube", "url": "https://youtube.com" },
+        { "name": "Gmail", "url": "http://gmail.com/" }
       ]
     },
     {
-      "name": "Others", "links": [
-        {"name": "Material Colors", "url": "http://materialuicolors.co/"},
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "neo4j Local", "url": "http://localhost:7474/"},
-        {"name": "rarbg", "url": "http://rarbg.to"}
+      "name": "code",
+      "links": [
+        { "name": "Github", "url": "https://github.com" },
+        {
+          "name": "r/androiddev",
+          "url": "https://www.reddit.com/r/androiddev/"
+        },
+        { "name": "ProAndroidDev", "url": "https://proandroiddev.com/" }
+      ]
+    },
+    {
+      "name": "social",
+      "links": [
+        { "name": "Reddit", "url": "https://reddit.com" },
+        { "name": "WhatsApp", "url": "https://web.whatsapp.com/" },
+        { "name": "Telegram", "url": "https://web.telegram.org/" },
+        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" }
+      ]
+    },
+    {
+      "name": "productivity",
+      "links": [
+        { "name": "Pomodoro", "url": "https://pomofocus.io/" },
+        { "name": "Notion", "url": "https://www.notion.so/" }
+      ]
+    },
+    {
+      "name": "Others",
+      "links": [
+        { "name": "Articles", "url": "https://feedly.com/i/my" },
+        { "name": "Medium", "url": "https://medium.com/" }
       ]
     }
   ],
-  "searchEngine":"DuckDuckGo",
-  "user": "Deepjyoti",
+  "searchEngine": "Google",
+  "user": "Jamile",
   "disableMessage": false,
   "disableDate": false,
   "disableSearchBar": false,
   "disable24Hour": false,
-  "disableWeather": true,
+  "disableWeather": false,
   "weatherConf": {
-    "location": "Pune India",
+    "location": "Brazil",
     "unit": "cel"
   }
 }
